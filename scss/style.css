@@ -34,7 +34,9 @@ body {
   background-color: blue; }
 
 .card-area {
-  padding: 10%; }
+  padding: 10%;
+  height: 75%;
+  width: 100%; }
 
 .card-address-1 {
   width: 100%;
@@ -49,7 +51,6 @@ body {
 .card-country {
   height: 50%;
   width: 50%;
-  border-bottom: solid 1px black;
   float: right; }
 
 .card-email {
@@ -70,13 +71,11 @@ body {
 .card-postcode {
   height: 50%;
   width: 50%;
-  border-bottom: solid 1px black;
   display: inline-block; }
 
 .card-country {
   height: 50%;
   width: 50%;
-  border-bottom: solid 1px black;
   float: right; }
 
 /*# sourceMappingURL=style.css.map */
