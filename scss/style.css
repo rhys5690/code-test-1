@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  position: relative; }
+
+body {
+  background-color: red; }
+
+.is-hidden {
+  display: none; }
+
+.l-right {
+  padding: 10%; }
+
+/*# sourceMappingURL=style.css.map */
