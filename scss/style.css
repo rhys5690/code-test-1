@@ -33,4 +33,50 @@ body {
   width: 100%;
   background-color: blue; }
 
+.card-area {
+  padding: 10%; }
+
+.card-address-1 {
+  width: 100%;
+  height: 20%;
+  border-bottom: solid 1px black; }
+
+.card-address-2 {
+  width: 100%;
+  height: 20%;
+  border-bottom: solid 1px black; }
+
+.card-country {
+  height: 50%;
+  width: 50%;
+  border-bottom: solid 1px black;
+  float: right; }
+
+.card-email {
+  height: 20%;
+  width: 100%;
+  border-bottom: solid 1px black; }
+
+.card-phone {
+  height: 20%;
+  width: 100%;
+  border-bottom: solid 1px black; }
+
+.card-postcode-country {
+  height: 20%;
+  width: 100%;
+  border-bottom: solid 1px black; }
+
+.card-postcode {
+  height: 50%;
+  width: 50%;
+  border-bottom: solid 1px black;
+  display: inline-block; }
+
+.card-country {
+  height: 50%;
+  width: 50%;
+  border-bottom: solid 1px black;
+  float: right; }
+
 /*# sourceMappingURL=style.css.map */
