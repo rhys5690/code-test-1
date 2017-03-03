@@ -1,5 +1,14 @@
 .name-area {
-  height: 25%;
+  height: 30%;
   width: 100%;
   background-color: blue;
+}
+
+.name-area .name-display-text {
+  color: white;
+  font-size: 32px;
+  font-weight: 1px;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
