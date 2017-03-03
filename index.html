@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     <link rel="stylesheet" href="scss/style.css">
     <title>code test 1</title>
@@ -23,24 +21,24 @@
             <div class="row">
                 <div class="six columns">
                     <label class="small-font-weight" for="givenName">GIVEN NAME</label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width given-name" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
                     <label class="small-font-weight" for="surname">SURNAME</label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width" type="text" placeholder="">
                 </div>
             </div>
 
             <div class="row">
                 <div class="six columns">
                     <label class="small-font-weight" for="email">EMAIL</label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width email-address" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
                     <label class="small-font-weight" for="phone">PHONE</label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width" type="text" placeholder="">
                 </div>
 
 
@@ -54,24 +52,24 @@
             <div class="row">
                 <div class="six columns">
                     <label class="small-font-weight" for="houseName">HOUSE NAME OR # </label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
                     <label class="small-font-weight" for="street">STREET</label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width" type="text" placeholder="">
                 </div>
             </div>
 
             <div class="row">
                 <div class="six columns">
                     <label class="small-font-weight" for="suburb">SUBURB</label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
                     <label class="small-font-weight" for="state">STATE</label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width" type="text" placeholder="">
                 </div>
 
 
@@ -80,12 +78,12 @@
             <div class="row">
                 <div class="six columns">
                     <label class="small-font-weight" for="postCode">POSTCODE</label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
                     <label class="small-font-weight" for="country">COUNTRY</label>
-                    <input class="u-full-width" type="email" placeholder="">
+                    <input class="u-full-width" type="text" placeholder="">
                 </div>
 
 
@@ -111,7 +109,7 @@
 
                 <div class="card-area">
                     <div class="card-email">
-                        <p class="card-text-formatting">EMAIL</p>
+                        <p><span class="card-text-formatting">EMAIL</span> <span class="email-address-display"></span></p>
                     </div>
 
                     <div class="card-phone">
@@ -140,6 +138,9 @@
             </div>
         </div>
 
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>
