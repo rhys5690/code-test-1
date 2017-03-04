@@ -2,10 +2,12 @@
 // 1 - create a variable for each form field and business card display field
 
 var allInputForms = document.querySelectorAll('input');
-var givenName = document.querySelector('.given-name');
-var surname = document.querySelector('.surname');
-var emailAddress = document.querySelector('.email-address');
-var emailAddressDisplay = document.querySelector('.email-address-display');
+// var givenName = document.querySelector('.given-name');
+// var surname = document.querySelector('.surname');
+// var emailAddress = document.querySelector('.email-address');
+// var emailAddressDisplay = document.querySelector('.email-address-display');
+// var phoneNumber = document.querySelector('.phone-number');
+// var phoneNumberDisplay = document.querySelector('.phone-number-display');
 
 
 // 4 - Match each input form field with the corressponding business card display field
@@ -28,6 +30,10 @@ function findField(selectedInput) {
         return document.querySelector(".post-code-display");
     } else if (selectedInput.classList.contains("country")) {
         return document.querySelector(".country-display");
+    } else if (selectedInput.classList.contains("given-name")) {
+        return document.querySelector(".given-name-display");
+    } else if (selectedInput.classList.contains("surname")) {
+        return document.querySelector(".surname-display");
     } else {
         return console.log("ERROR, not a field");
     }
