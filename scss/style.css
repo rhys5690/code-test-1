@@ -21,7 +21,7 @@ body {
 
 .l-right {
   padding: 5%;
-  background-color: grey;
+  background-color: rgba(224, 224, 224, 0.9);
   display: inline-block;
   float: right;
   width: 50%;
@@ -136,12 +136,23 @@ body {
 .upload-hcard .upload-hcard-button {
   width: 100%;
   height: 6rem;
-  font-size: 23px;
+  font-size: 26px;
   margin-left: 1rem;
   text-transform: none;
   background-color: blue;
   color: white;
   border-radius: 8px;
   font-weight: 400; }
+
+.mini-heading {
+  width: 100%;
+  border-bottom: groove 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 3rem;
+  opacity: 0.3; }
+
+.mini-heading .mini-heading-text {
+  margin-bottom: 0rem;
+  font-size: 1.2rem;
+  font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
