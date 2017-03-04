@@ -111,4 +111,37 @@ body {
 .form .small-font-weight {
   font-weight: 100; }
 
+.buttons {
+  width: 100%;
+  height: 20%; }
+
+.upload-avatar {
+  display: inline-block;
+  width: 50%; }
+
+.upload-avatar .upload-avatar-button {
+  width: 26rem;
+  height: 6rem;
+  font-size: 23px;
+  text-transform: none;
+  background-color: grey;
+  color: white;
+  border-radius: 8px;
+  font-weight: 400; }
+
+.upload-hcard {
+  float: right;
+  width: 50%; }
+
+.upload-hcard .upload-hcard-button {
+  width: 26rem;
+  height: 6rem;
+  font-size: 23px;
+  margin-left: 1rem;
+  text-transform: none;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  font-weight: 400; }
+
 /*# sourceMappingURL=style.css.map */
