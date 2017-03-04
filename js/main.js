@@ -1,27 +1,14 @@
-//create variable for each input field in the form
 
+// 1 - create a variable for each form field and business card display field
+
+var allInputForms = document.querySelectorAll('input');
 var givenName = document.querySelector('.given-name');
 var surname = document.querySelector('.surname');
 var emailAddress = document.querySelector('.email-address');
+var emailAddressDisplay = document.querySelector('.email-address-display');
 
-var allInputForms = document.querySelectorAll('input');
 
-// function displayEmail() {
-//   var currentEmail = emailAddress.value;
-//   var emailAddressDisplay = document.querySelector('.email-address-display');
-//   emailAddressDisplay.innerHTML =  currentEmail;
-// }
-//
-// //Event listeners for any information put in form
-//
-// // givenName.addEventListener('keyup', displayName);
-// emailAddress.addEventListener('keyup', displayEmail);
-
-///Attempt all in one javascript
-
-//Create if statements to verify which card field to append text
-
-//return the field to display the information on the business card
+// 4 - Match each input form field with the corressponding business card display field
 
 function findField(selectedInput) {
 
@@ -46,13 +33,25 @@ function findField(selectedInput) {
     }
 }
 
+
+// 3 - display the form information on the business card
+
 function displayInput() {
+
+    // Save the changed input field in a variable
     var selectedInput = this;
-    var displayOnCard = this.value;
+
+    //Save the relevant display field for the business card in a variable
     var fieldToDisplay = findField(selectedInput);
+
+    //Save the inputted information in a variable
+    var displayOnCard = selectedInput.value;
+
+    //Add the inputted information to the display field of the business card
     fieldToDisplay.innerHTML = displayOnCard;
 }
 
+// 2 - Loop through all the form fields and listen for a keyup on each one
 allInputForms.forEach(input => {
     input.addEventListener('keyup', displayInput);
 });
