@@ -172,6 +172,12 @@ body {
   .upload-avatar .upload-avatar-button {
     margin-left: 0rem;
     font-size: 18px; } }
+@media screen and (max-width: 430px) {
+  .upload-avatar .upload-avatar-button {
+    width: none;
+    font-size: 12px;
+    white-space: normal;
+    line-height: 16px; } }
 .upload-hcard {
   float: right;
   width: 50%; }
@@ -196,6 +202,12 @@ body {
   .upload-hcard .upload-hcard-button {
     margin-left: 0rem;
     font-size: 18px; } }
+@media screen and (max-width: 1172px) and (max-width: 430px) {
+  .upload-hcard .upload-hcard-button {
+    width: none;
+    font-size: 12px;
+    white-space: normal;
+    line-height: 16px; } }
 .mini-heading {
   width: 100%;
   border-bottom: groove 2px rgba(0, 0, 0, 0.2);

@@ -25,3 +25,12 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 430px) {
+  .upload-avatar .upload-avatar-button {
+    width: none;
+    font-size: 12px;
+    white-space: normal;
+    line-height: 16px;
+  }
+}
