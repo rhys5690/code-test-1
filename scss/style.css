@@ -19,14 +19,23 @@ body {
   display: inline-block;
   padding: 4rem; }
 
+@media screen and (max-width: 977px) {
+  .l-left {
+    width: 100vw;
+    height: 100%; } }
 .l-right {
   padding: 5%;
   background-color: rgba(224, 224, 224, 0.9);
   display: inline-block;
   float: right;
-  width: 50%;
+  width: 50vw;
   height: 100vh; }
 
+@media screen and (max-width: 977px) {
+  .l-right {
+    float: none;
+    width: 100vw;
+    height: 100%; } }
 .business-card {
   width: 100%;
   height: 50%;
@@ -129,6 +138,13 @@ body {
   border-radius: 8px;
   font-weight: 400; }
 
+@media screen and (max-width: 620px) {
+  .upload-avatar {
+    width: 75%; }
+
+  .upload-avatar .upload-avatar-button {
+    margin-left: 0rem;
+    font-size: 18px; } }
 .upload-hcard {
   float: right;
   width: 50%; }
@@ -144,6 +160,14 @@ body {
   border-radius: 8px;
   font-weight: 400; }
 
+@media screen and (max-width: 620px) {
+  .upload-hcard {
+    float: none;
+    width: 75%; }
+
+  .upload-hcard .upload-hcard-button {
+    margin-left: 0rem;
+    font-size: 18px; } }
 .mini-heading {
   width: 100%;
   border-bottom: groove 1px rgba(0, 0, 0, 0.3);

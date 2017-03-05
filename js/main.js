@@ -1,14 +1,7 @@
 
-// 1 - create a variable for each form field and business card display field
+// 1 - create a variable for all fields
 
 var allInputForms = document.querySelectorAll('input');
-// var givenName = document.querySelector('.given-name');
-// var surname = document.querySelector('.surname');
-// var emailAddress = document.querySelector('.email-address');
-// var emailAddressDisplay = document.querySelector('.email-address-display');
-// var phoneNumber = document.querySelector('.phone-number');
-// var phoneNumberDisplay = document.querySelector('.phone-number-display');
-
 
 // 4 - Match each input form field with the corressponding business card display field
 
@@ -61,3 +54,15 @@ function displayInput() {
 allInputForms.forEach(input => {
     input.addEventListener('keyup', displayInput);
 });
+
+//Display image selection on click
+
+var uploadButton = document.querySelector('.upload-button');
+
+function triggerClick() {
+    var hiddenUploadButton = document.querySelector('.upload');
+
+    hiddenUploadButton.click();
+}
+
+uploadButton.addEventListener("click", triggerClick);

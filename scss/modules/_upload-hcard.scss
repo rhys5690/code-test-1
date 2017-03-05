@@ -14,3 +14,15 @@
   border-radius: 8px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 620px) {
+  .upload-hcard {
+  float: none;
+  width: 75%;
+  }
+
+  .upload-hcard .upload-hcard-button {
+    margin-left: 0rem;
+    font-size: 18px;
+  }
+}

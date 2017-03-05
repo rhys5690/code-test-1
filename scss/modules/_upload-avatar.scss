@@ -13,3 +13,14 @@
   border-radius: 8px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 620px) {
+  .upload-avatar {
+    width: 75%;
+  }
+
+  .upload-avatar .upload-avatar-button {
+    margin-left: 0rem;
+    font-size: 18px;
+  }
+}
