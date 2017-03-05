@@ -162,7 +162,8 @@ body {
   background-color: rgba(126, 139, 144, 0.9);
   color: white;
   border-radius: 8px;
-  font-weight: 400; }
+  font-weight: 400;
+  box-shadow: 0px 2px 1px 0px dimgrey; }
 
 @media screen and (max-width: 1172px) {
   .upload-avatar {
@@ -184,7 +185,8 @@ body {
   background-color: rgba(57, 145, 244, 0.9);
   color: white;
   border-radius: 8px;
-  font-weight: 400; }
+  font-weight: 400;
+  box-shadow: 0px 2px 1px 0px blue; }
 
 @media screen and (max-width: 1172px) {
   .upload-hcard {
@@ -198,7 +200,8 @@ body {
   width: 100%;
   border-bottom: groove 2px rgba(0, 0, 0, 0.2);
   margin-bottom: 3rem;
-  opacity: 0.3; }
+  opacity: 0.3;
+  margin-top: 3rem; }
 
 .mini-heading .mini-heading-text {
   margin-bottom: 0rem;
