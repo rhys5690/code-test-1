@@ -84,6 +84,10 @@ body {
   margin-top: 7rem;
   margin-bottom: 2rem; }
 
+@media screen and (min-width: 1024px) {
+  .name-area .name-display-text {
+    margin-top: 11rem;
+    margin-left: 3rem; } }
 .name-box {
   display: inline-block; }
 
