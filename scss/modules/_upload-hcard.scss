@@ -16,6 +16,14 @@
   box-shadow: 0px 2px 1px 0px blue;
 }
 
+@media screen and (max-width: 1472px) {
+  .upload-hcard .upload-hcard-button {
+    font-size: 18px;
+    white-space: normal;
+    line-height: 16px;
+  }
+}
+
 @media screen and (max-width: 1172px) {
   .upload-hcard {
   float: none;

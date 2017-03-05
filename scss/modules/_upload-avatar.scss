@@ -15,6 +15,14 @@
   box-shadow: 0px 2px 1px 0px dimgrey;
 }
 
+@media screen and (max-width: 1472px) {
+  .upload-avatar .upload-avatar-button {
+    font-size: 18px;
+    white-space: normal;
+    line-height: 16px;
+  }
+}
+
 @media screen and (max-width: 1172px) {
   .upload-avatar {
     width: 75%;
