@@ -74,10 +74,11 @@ function readURL(input) {
             var reader = new FileReader();
 
             reader.onload = function (e) {
-                $('#blah')
+                var selectedImage = $(".selected-image");
+                    selectedImage
                     .attr('src', e.target.result)
-                    .width(114)
-                    .height(125);
+                    .width("100%")
+                    .height("100%");
             };
 
             reader.readAsDataURL(input.files[0]);
