@@ -67,15 +67,22 @@ var uploadButton = document.querySelector('.upload-button');
 
 uploadButton.addEventListener("click", triggerClick);
 
-//choose picture for thumbnail
+
+
+//choose picture for thumbnail and display image
 
 function readURL(input) {
     if (input.files && input.files[0]) {
             var reader = new FileReader();
 
             reader.onload = function (e) {
+
+                var defaultImage = $(".default-image");
+                defaultImage.addClass("is-hidden");
+
                 var selectedImage = $(".selected-image");
                     selectedImage
+                    .removeClass("is-hidden")
                     .attr('src', e.target.result)
                     .width("100%")
                     .height("100%");
