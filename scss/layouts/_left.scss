@@ -14,3 +14,10 @@
     height: 100%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+    .l-left {
+      padding-left: 15rem;
+      padding-right: 15rem;
+    }
+  }
