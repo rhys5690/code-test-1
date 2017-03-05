@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"> -->
     <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     <title>code test 1</title>
 </head>
 
 <body>
 
     <div class="l-left">
-        <h2>hCard builder</h2>
+
+        <div class="main-heading">
+            <h2 class="main-heading-text">hCard builder</h2>
+        </div>
 
         <div class="mini-heading">
             <p class="mini-heading-text">PERSONAL DETAILS</p>
@@ -23,25 +27,25 @@
         <form class="form">
             <div class="row">
                 <div class="six columns">
-                    <label class="small-font-weight" for="givenName">GIVEN NAME</label>
-                    <input class="u-full-width given-name" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="givenName">GIVEN NAME</label>
+                    <input class="u-full-width given-name input-formatting" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
-                    <label class="small-font-weight" for="surname">SURNAME</label>
-                    <input class="u-full-width surname" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="surname">SURNAME</label>
+                    <input class="u-full-width surname input-formatting" type="text" placeholder="">
                 </div>
             </div>
 
             <div class="row">
                 <div class="six columns">
-                    <label class="small-font-weight" for="email">EMAIL</label>
-                    <input class="u-full-width email-address" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="email">EMAIL</label>
+                    <input class="u-full-width email-address input-formatting" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
-                    <label class="small-font-weight" for="phone">PHONE</label>
-                    <input class="u-full-width phone" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="phone">PHONE</label>
+                    <input class="u-full-width phone input-formatting" type="text" placeholder="">
                 </div>
 
 
@@ -56,25 +60,25 @@
         <form class="form">
             <div class="row">
                 <div class="six columns">
-                    <label class="small-font-weight" for="houseName">HOUSE NAME OR # </label>
-                    <input class="u-full-width house-number" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="houseName">HOUSE NAME OR # </label>
+                    <input class="u-full-width house-number input-formatting" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
-                    <label class="small-font-weight" for="street">STREET</label>
-                    <input class="u-full-width street" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="street">STREET</label>
+                    <input class="u-full-width street input-formatting" type="text" placeholder="">
                 </div>
             </div>
 
             <div class="row">
                 <div class="six columns">
-                    <label class="small-font-weight" for="suburb">SUBURB</label>
-                    <input class="u-full-width suburb" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="suburb">SUBURB</label>
+                    <input class="u-full-width suburb input-formatting" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
-                    <label class="small-font-weight" for="state">STATE</label>
-                    <input class="u-full-width state" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="state">STATE</label>
+                    <input class="u-full-width state input-formatting" type="text" placeholder="">
                 </div>
 
 
@@ -82,13 +86,13 @@
 
             <div class="row">
                 <div class="six columns">
-                    <label class="small-font-weight" for="postCode">POSTCODE</label>
-                    <input class="u-full-width post-code" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="postCode">POSTCODE</label>
+                    <input class="u-full-width post-code input-formatting" type="text" placeholder="">
                 </div>
 
                 <div class="six columns">
-                    <label class="small-font-weight" for="country">COUNTRY</label>
-                    <input class="u-full-width country" type="text" placeholder="">
+                    <label class="small-font-weight form-text-font" for="country">COUNTRY</label>
+                    <input class="u-full-width country input-formatting" type="text" placeholder="">
                 </div>
 
             </div>
@@ -97,7 +101,7 @@
         <div class="buttons">
 
             <div class="upload-avatar">
-                <input class="upload is-hidden" type="file"/>
+                <input class="upload is-hidden" type="file" />
                 <button class="upload-avatar-button upload-button">Upload Avatar</button>
             </div>
 

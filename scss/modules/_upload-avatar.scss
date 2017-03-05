@@ -6,15 +6,15 @@
 .upload-avatar .upload-avatar-button {
   width: 100%;
   height: 6rem;
-  font-size: 23px;
+  font-size: 2.2rem;
   text-transform: none;
-  background-color: grey;
+  background-color: rgba(126, 139, 144, 0.9);
   color: white;
   border-radius: 8px;
   font-weight: 400;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1172px) {
   .upload-avatar {
     width: 75%;
   }

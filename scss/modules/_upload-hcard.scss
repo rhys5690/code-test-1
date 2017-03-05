@@ -6,16 +6,16 @@
 .upload-hcard .upload-hcard-button {
   width: 100%;
   height: 6rem;
-  font-size: 26px;
+  font-size: 2.2rem;
   margin-left: 1rem;
   text-transform: none;
-  background-color: blue;
+  background-color: rgba(57, 145, 244, 0.9);
   color: white;
   border-radius: 8px;
   font-weight: 400;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1172px) {
   .upload-hcard {
   float: none;
   width: 75%;

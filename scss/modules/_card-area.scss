@@ -1,11 +1,15 @@
 .card-area {
-  padding: 10%;
-  height: 70%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  height: 60%;
   width: 100%;
 }
 
 .card-area .card-text-formatting {
     padding-top: 13px;
-    color: blue;
+    color: rgba(60, 78, 107, 0.6);
     font-size: 12px;
+    font-weight: 300;
   }
