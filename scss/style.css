@@ -146,6 +146,9 @@ body {
   margin-top: 2rem;
   margin-right: 2rem; }
 
+@media screen and (min-width: 1024px) {
+  .picture-box {
+    width: 15%; } }
 .form .small-font-weight {
   font-weight: 100; }
 
