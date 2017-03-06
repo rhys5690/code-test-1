@@ -31,3 +31,20 @@
 .address-2-formatting {
   margin-bottom: 0rem;
 }
+
+.custom {
+  padding-left: 23%;
+  height: 20%;
+}
+
+@media screen and (max-width: 550px) {
+
+  .card-post-code-border, .card-country-border {
+  border-bottom: 2px solid #dcdcdc;
+  }
+
+  .custom {
+    padding-left: 1%;
+    // height: auto;
+  }
+}

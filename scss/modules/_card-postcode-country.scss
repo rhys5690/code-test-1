@@ -1,6 +1,13 @@
 .card-postcode-country {
-  height: 20%;
+  // height: 20%;
   width: 100%;
   border-bottom: 2px solid #D1D1D1;
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 550px) {
+
+  .card-postcode-country {
+    border: none;
+  }
 }

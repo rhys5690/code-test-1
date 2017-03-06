@@ -34,6 +34,16 @@ body {
 .address-2-formatting {
   margin-bottom: 0rem; }
 
+.custom {
+  padding-left: 23%;
+  height: 20%; }
+
+@media screen and (max-width: 550px) {
+  .card-post-code-border, .card-country-border {
+    border-bottom: 2px solid #dcdcdc; }
+
+  .custom {
+    padding-left: 1%; } }
 .l-left {
   width: 50vw;
   height: 100vh;
@@ -74,6 +84,9 @@ body {
 @media screen and (min-width: 1824px) {
   .business-card {
     margin-top: 7rem; } }
+@media screen and (max-width: 550px) {
+  .business-card {
+    height: auto; } }
 .name-area {
   height: 40%;
   width: 100%;
@@ -110,13 +123,11 @@ body {
 
 .card-address-1 {
   width: 100%;
-  height: 20%;
   border-bottom: 2px solid #D1D1D1;
   margin-top: 0.5rem; }
 
 .card-address-2 {
   width: 100%;
-  height: 20%;
   border-bottom: 2px solid #D1D1D1;
   margin-top: 0.5rem; }
 
@@ -126,23 +137,23 @@ body {
   float: right; }
 
 .card-email {
-  height: 20%;
   width: 100%;
   border-bottom: 2px solid #D1D1D1;
   padding: 0; }
 
 .card-phone {
-  height: 20%;
   width: 100%;
   border-bottom: 2px solid #D1D1D1;
   margin-top: 0.5rem; }
 
 .card-postcode-country {
-  height: 20%;
   width: 100%;
   border-bottom: 2px solid #D1D1D1;
   margin-top: 0.5rem; }
 
+@media screen and (max-width: 550px) {
+  .card-postcode-country {
+    border: none; } }
 .card-postcode {
   height: 50%;
   width: 50%;
