@@ -1,9 +1,11 @@
 
-// 1 - create a variable for all fields
+//---- Make Business Card Update with Form
+
+    // 1 - create a variable for all fields
 
 var allInputForms = document.querySelectorAll('input');
 
-// 4 - Match each input form field with the corressponding business card display field
+    // 4 - Match each input form field with the corressponding business card display field
 
 function findField(selectedInput) {
 
@@ -33,29 +35,29 @@ function findField(selectedInput) {
 }
 
 
-// 3 - display the form information on the business card
+    // 3 - display the form information on the business card
 
 function displayInput() {
 
-    // Save the changed input field in a variable
+        // Save the changed input field in a variable
     var selectedInput = this;
 
-    //Save the relevant display field for the business card in a variable
+        //Save the relevant display field for the business card in a variable
     var fieldToDisplay = findField(selectedInput);
 
-    //Save the inputted information in a variable
+        //Save the inputted information in a variable
     var displayOnCard = selectedInput.value;
 
-    //Add the inputted information to the display field of the business card
+        //Add the inputted information to the display field of the business card
     fieldToDisplay.innerHTML = displayOnCard;
 }
 
-// 2 - Loop through all the form fields and listen for a keyup on each one
+    // 2 - Loop through all the form fields and listen for a keyup on each one
 allInputForms.forEach(input => {
     input.addEventListener('keyup', displayInput);
 });
 
-//Display image selection on click
+        //Display image selection on click
 
 var uploadButton = document.querySelector('.upload-button');
 
@@ -69,7 +71,7 @@ uploadButton.addEventListener("click", triggerClick);
 
 
 
-//choose picture for thumbnail and display image
+//---choose picture for thumbnail and display image
 
 function readURL(input) {
     if (input.files && input.files[0]) {
@@ -91,3 +93,12 @@ function readURL(input) {
             reader.readAsDataURL(input.files[0]);
         }
     }
+
+//-----Display alert if somebody clicks "create hcard"
+
+    function submit() {
+        alert("Sorry, this feature does not exist yet :)");
+    }
+
+    var submitButton = document.querySelector('.upload-hcard-button');
+    submitButton.addEventListener("click", submit);
