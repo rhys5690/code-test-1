@@ -74,7 +74,7 @@ uploadButton.addEventListener("click", triggerClick);
 
 
 
-//---choose picture for thumbnail and display image
+//---choose picture for thumbnail and display image (found this method on stack overflow and tweaked it)
 
 function readURL(input) {
     if (input.files && input.files[0]) {
