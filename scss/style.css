@@ -74,7 +74,7 @@ body {
   .l-right {
     float: none;
     width: 100vw;
-    height: 100vh; } }
+    height: auto; } }
 .business-card {
   width: 100%;
   height: 50%;
@@ -88,6 +88,9 @@ body {
 @media screen and (max-width: 550px) {
   .business-card {
     height: auto; } }
+@media screen and (max-width: 550px) {
+  .business-card {
+    margin-top: 2rem; } }
 .name-area {
   height: 40%;
   width: 100%;

@@ -1,11 +1,11 @@
 
 //---- Make Business Card Update with Form
 
-    // 1 - create a variable for all fields
+    // 1 - create a variable for all input fields
 
 var allInputForms = document.querySelectorAll('input');
 
-    // 4 - Match each input form field with the corressponding business card display field
+    // 4 - Match each input field with the corressponding business card display field
 
 function findField(selectedInput) {
 
@@ -53,11 +53,14 @@ function displayInput() {
 }
 
     // 2 - Loop through all the form fields and listen for a keyup on each one
-allInputForms.forEach(input => {
-    input.addEventListener('keyup', displayInput);
-});
 
-        //Display image selection on click
+for (var i = 0; i < allInputForms.length; i++) {
+    var input = allInputForms[i];
+
+    input.addEventListener("keyup", displayInput);
+}
+
+//---Display image selection on click
 
 var uploadButton = document.querySelector('.upload-button');
 
@@ -102,3 +105,14 @@ function readURL(input) {
 
     var submitButton = document.querySelector('.upload-hcard-button');
     submitButton.addEventListener("click", submit);
+
+//-----Add comma to the end of suburb
+
+function addComma() {
+    if ($(this).val().split('').pop() !== ',') {
+        $(this).val($(this).val() + ",");
+        return;
+    }
+}
+
+$(".suburb").one("keyup", addComma); //Calls function only once

@@ -18,3 +18,10 @@
     height: auto;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .business-card {
+    margin-top: 2rem;
+
+  }
+}
