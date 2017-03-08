@@ -78,13 +78,18 @@ uploadButton.addEventListener("click", triggerClick);
 
 function readURL(input) {
     if (input.files && input.files[0]) {
+
+            //Create file reader object to read the image specified by the user
             var reader = new FileReader();
 
+            //Trigger event once image is selected
             reader.onload = function (e) {
 
+                //Remove default image from business card
                 var defaultImage = $(".default-image");
                 defaultImage.addClass("is-hidden");
 
+                //Add selected image to business card and expand the height and width to fill the div
                 var selectedImage = $(".selected-image");
                     selectedImage
                     .removeClass("is-hidden")
@@ -93,6 +98,7 @@ function readURL(input) {
                     .height("100%");
             };
 
+            //Read the contents of the image file and trigger the onload method
             reader.readAsDataURL(input.files[0]);
         }
     }
